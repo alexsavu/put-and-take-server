@@ -3,7 +3,7 @@ var http = require("http");
 
 var mongoose = require('mongoose');
 //mongoose.connect('mongodb://localhost/my_database'); // use for development
-mongoose.connect(MONGOHQ_URL); // use for deployment
+mongoose.connect(process.env.MONGOHQ_URL); // use for deployment
 
 var Schema = mongoose.Schema;
 
