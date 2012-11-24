@@ -1,0 +1,4 @@
+"dependencies": {
+  "restify": ">= 1.4.x",
+  "mongoose": ">= 3.4.x"
+}
