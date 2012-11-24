@@ -1,0 +1,11 @@
+{
+  "name": "put-and-take",
+  "description": "write something here",
+  "author": "Alex Savu <alexsavu@hotmail.com>",
+  "dependencies": {
+    "restify": "1.4.x",
+    "mongoose": "3.3.x"
+  },
+  "version" : "1.2.0",
+  "engine": "node 0.8.x"
+}
