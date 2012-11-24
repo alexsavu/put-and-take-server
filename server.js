@@ -657,6 +657,7 @@ server.get("/areas", getAreas);
 server.post("/area/new", newArea);
 server.post("/area/location/new", newLocation);
 
-server.listen(80, function() {
+var port = process.env.PORT || 5000;
+server.listen(port, function() {
   return console.log("%s listening at %s", server.name, server.url);
 });
