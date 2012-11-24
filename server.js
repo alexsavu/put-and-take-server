@@ -636,11 +636,11 @@ for (var i = 0; i < areaArray.length; i++) {
 
 Area.findOne ({'name': 'Østjylland'}, function(err, area){
 
-	for (var i = 0; i < Østjylland.length; i++) {
+	for (var i = 0; i < area.length; i++) {
 		var tempLoc = new Location();
-		tempLoc.latitude = Østjylland[i].latitude;
-		tempLoc.longitude = Østjylland[i].longitude;
-		tempLoc.name = Østjylland[i].name;
+		tempLoc.latitude = area[i].latitude;
+		tempLoc.longitude = area[i].longitude;
+		tempLoc.name = area[i].name;
 		area.locations.push(tempLoc);
 	};
 
