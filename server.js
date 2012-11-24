@@ -2,7 +2,8 @@ var restify = require("restify");
 var http = require("http");
 
 var mongoose = require('mongoose');
-mongoose.connect('mongodb://localhost/my_database');
+//mongoose.connect('mongodb://localhost/my_database'); // use for development
+mongoose.connect(MONGOHQ_URL); // use for deployment
 
 var Schema = mongoose.Schema;
 
@@ -645,7 +646,7 @@ Area.findOne ({'name': 'Østjylland'}, function(err, area){
 	};
 
 	area.save();
-	console.log(area.locations);
+	// console.log(area.locations);
 
 });
 
