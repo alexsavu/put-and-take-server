@@ -2,8 +2,12 @@ var restify = require("restify");
 var http = require("http");
 
 var mongoose = require('mongoose');
-// mongoose.connect('mongodb://localhost/my_database'); // use for development
-var mongodburl = process.env.MONGOHQ_URL||'mongodb://localhost/my_database';
+
+var mongodburl = process.env.MONGOHQ_URL || 'mongodb://localhost/my_database';
+// automatically select the right address to connect to either local or remote database
+// heroku:764038dc1c92ab3bed90eacf8cc97671@mars.mongohq.com:10046/app9463967
+// use this to connect to the mongodb server: mongo mars.mongohq.com:10046/app9463967 -u heroku -p 764038dc1c92ab3bed90eacf8cc97671
+
 mongoose.connect(mongodburl); // use for deployment
 console.log("connecting to database server: "+mongodburl);
 
