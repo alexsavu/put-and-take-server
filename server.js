@@ -3,7 +3,9 @@ var http = require("http");
 
 var mongoose = require('mongoose');
 // mongoose.connect('mongodb://localhost/my_database'); // use for development
-mongoose.connect(process.env.MONGOHQ_URL); // use for deployment
+var mongodburl = process.env.MONGOHQ_URL||'mongodb://localhost/my_database';
+mongoose.connect(mongodburl); // use for deployment
+console.log("connecting to database server: "+mongodburl);
 
 var Schema = mongoose.Schema;
 
