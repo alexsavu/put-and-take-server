@@ -17,6 +17,8 @@ var Locations = new Schema({
     latitude     : Number
   , longitude    : Number
   , name      	 : String
+  , address		 : String
+  , telephone    : Number
 });
 
 var Areas = new Schema ({
@@ -593,6 +595,303 @@ areaOne.locations.push(location28);
 // areaTwo.locations.push(location81);
 // areaTwo.locations.push(location82);
 // areaTwo.locations.push(location83);
+
+var location84 = {};
+location84.name = "Adsbøl Sø";
+location84.latitude = 55.783958;
+location84.longitude = 8.218857;
+location84.address = "Adsbølvej 48, Strellev, 6870 Ølgod";
+location84.telephone = 75250275;
+
+var location85 = {};
+location85.name = "Alslev Lystfiskersø";
+location85.latitude = 55.576295;
+location85.longitude = 8.448036;
+location85.address = "Forumvej 90, Alslev, 6800 Varde";
+location85.telephone = 75269359;
+
+var location86 = {};
+location86.name = "Bakkely Fiskesø";
+location86.latitude = 55.934395;
+location86.longitude = 9.141161;
+location86.address = "Vejlevej 100, 7330 Brande";
+location86.telephone = 97180711;
+
+var location87 = {};
+location87.name = "Ballerum Lystfiskeri";
+location87.latitude = 57.041757;
+location87.longitude = 8.766425;
+location87.address = "Tangrimme 14, 7700 Thisted";
+location87.telephone = 97985335;
+
+var location88 = {};
+location88.name = "Bjerrely Put & Take";
+location88.latitude = 56.081939;
+location88.longitude = 8.843479;
+location88.address = "Bjerrevej 55 Tanderupkjær, 7400 Herning";
+location88.telephone = 23715103;
+
+var location89 = {};
+location89.name = "Blåhøj Fiskesøer";
+location89.latitude = 55.87442;
+location89.longitude = 8.99379;
+location89.address = "Stakrogevej 16, 7330 Brande";
+location89.telephone = 75345302;
+
+var location90 = {};
+location90.name = "Bækhuse Put & Take";
+location90.latitude = 55.710274;
+location90.longitude = 8.381646;
+location90.address = "Bækhusevej 55, 6855 Outrup";
+location90.telephone = 75251585;
+
+var location91 = {};
+location91.name = "Bækmarksbro Put and Take";
+location91.latitude = 56.404725;
+location91.longitude = 8.305128;
+location91.address = "Søhusvej 28, Møborg, 7660 Bækmarksbro";
+location91.telephone = 40102902;
+
+var location92 = {};
+location92.name = "Drostrup Lystfiskersø";
+location92.latitude = 55.521671;
+location92.longitude = 9.139488;
+location92.address = "Drostrupgårdvej 12, Bække, 6600 Vejen";
+location92.telephone = 75362694;
+
+var location93 = {};
+location93.name = "Ejsing Put & Take";
+location93.latitude = 56.512669;
+location93.longitude = 8.748668;
+location93.address = "Råstvej 3, Råst, 7830 Vinderup";
+location93.telephone = 97446900;
+
+var location94 = {};
+location94.name = "Ejstrup Søerne";
+location94.latitude = 56.02344;
+location94.longitude = 8.643944;
+location94.address = "Fasterlundvej 11,Ejstrup, 6900 Skjern";
+location94.telephone = 20845916;
+
+var location95 = {};
+location95.name = "Engholm Lystfiskersø";
+location95.latitude = 56.24614;
+location95.longitude = 9.452899;
+location95.address = "Engholmsvej 10a, 8620 Kjellerup";
+location95.telephone = 20323555;
+
+var location96 = {};
+location96.name = "Fahlbæk Put & Take";
+location96.latitude = 55.945523;
+location96.longitude = 8.40188;
+location96.address = "Langkærvej 4,Stauning, 6900 Skjern";
+location96.telephone = 97369161;
+
+var location97 = {};
+location97.name = "Filskov Put & Take";
+location97.latitude = 55.808384;
+location97.longitude = 8.546247;
+location97.address = "Bredsten landevej 7, 7200 Grindsted";
+location97.telephone = 20860779;
+
+var location98 = {};
+location98.name = "Foersum Teglværkssøer";
+location98.latitude = 55.870688;
+location98.longitude = 8.516293;
+location98.address = "Teglgårdsvej 7, 6880 Tarm";
+location98.telephone = 23456639;
+
+//Can't locate it
+// var location99 = {};
+// location99.name = "Fur Put & Take";
+// location99.latitude = 55.808384;
+// location99.longitude = 8.546247;
+// location99.address = "Kønsborgvej 5, Kønsborg, 7884 Fur";
+// location99.telephone = 97593350;
+
+var location100 = {};
+location100.name = "Fårbæk Put & Take";
+location100.latitude = 56.364323;
+location100.longitude = 9.05443;
+location100.address = "Fårbækvej 20, 7540 Haderup";
+location100.telephone = 97456167;
+
+var location101 = {};
+location101.name = "Grindsted Fiskesø";
+location101.latitude = 55.752888;
+location101.longitude = 8.954887;
+location101.address = "Hedemarken 18, 7200 Grindsted";
+location101.telephone = 75324433;
+
+var location102 = {};
+location102.name = "Grærup Fiskesø";
+location102.latitude = 55.640593;
+location102.longitude = 8.18122;
+location102.address = "Grærup Havvej,Grærup, 6840 Oksbøl";
+location102.telephone = 75277070;
+
+var location103 = {};
+location103.name = "Grønbæk Put & Take";
+location103.latitude = 56.283725;
+location103.longitude = 9.642863;
+location103.address = "Gl. Kongevej, Grønbæk, 8643 Ans";
+location103.telephone = 86870533;
+
+//Can't locate it
+// var location104 = {};
+// location104.name = "Hebo Sø - Put & Take";
+// location104.latitude = 55.783958;
+// location104.longitude = 8.546247;
+// location104.address = "Hebovej 86, Sr.Hebo, 6851 Janderup";
+// location104.telephone = 75250275;
+
+var location105 = {};
+location105.name = "Herning Fiskepark";
+location105.latitude = 56.136882;
+location105.longitude = 8.91783;
+location105.address = "Langvadbjergvej 23, 7400 Herning";
+location105.telephone = 97161600;
+
+var location106 = {};
+location106.name = "Ho fiskesø";
+location106.latitude = 55.561724;
+location106.longitude = 8.218846;
+location106.address = "Almosetoften 12, 6857 Blåvand";
+location106.telephone = 75279665;
+
+var location107 = {};
+location107.name = "Højkilde Lystfiskerpark";
+location107.latitude = 55.974038;
+location107.longitude = 8.898904;
+location107.address = "Hovedgaden 48, Skarrild, 6933 Kibæk";
+location107.telephone = 97196483;
+
+var location108 = {};
+location108.name = "Højmark Lystfiskersøer";
+location108.latitude = 56.049789;
+location108.longitude = 8.405206;
+location108.address = "Adelvej 10, Højmark, 6940 Lem";
+location108.telephone = 97343132;
+
+var location109 = {};
+location109.name = "Højlund put & take";
+location109.latitude = 56.098926;
+location109.longitude = 8.724883;
+location109.address = "Engholmvej 1, 6920 Videbæk";
+location109.telephone = 97175425;
+
+var location110 = {};
+location110.name = "Høvring Sø";
+location110.latitude = 56.125486;
+location110.longitude = 8.320363;
+location110.address = "Oksfeldvej 14, 6950 Ringkøbing";
+location110.telephone = 97330046;
+
+var location111 = {};
+location111.name = "Klegod Ørredsø";
+location111.latitude = 56.083022;
+location111.longitude = 8.120463;
+location111.address = "Holmsland Klitvej 100, 6950 Ringkøbing";
+location111.telephone = 97339025;
+
+var location112 = {};
+location112.name = "Kloevergaardens Put & Take";
+location112.latitude = 55.759336;
+location112.longitude = 8.303325;
+location112.address = "Kollevej 50, Kolle 6830 Nørre Nebel";
+location112.telephone = 20200026;
+
+var location113 = {};
+location113.name = "Krogager Mergelgrav";
+location113.latitude = 55.693975;
+location113.longitude = 8.843415;
+location113.address = "Refshøjvej 4, 7200 Grindsted";
+location113.telephone = 75339145;
+
+var location114 = {};
+location114.name = "Kærshovedgaard Put & Take";
+location114.latitude = 56.113213;
+location114.longitude = 9.281859;
+location114.address = "Teglgårdsvej, Kærshoved, 7441 Bording";
+location114.telephone = 21782454;
+
+var location115 = {};
+location115.name = "Lilleflod Ørredfiskeri";
+location115.latitude = 55.80807;
+location115.longitude = 8.221164;
+location115.address = "Vesterhavsvej 180, 6830 Nørre Nebel";
+location115.telephone = 75289940;
+
+var location116 = {};
+location116.name = "Loch Nees Put and Take";
+location116.latitude = 56.386471;
+location116.longitude = 8.194878;
+location116.address = "Sandbækvej 9, Nees, 7570";
+location116.telephone = 25248033;
+
+var location117 = {};
+location117.name = "Lundbro Put & Take";
+location117.latitude = 56.564094;
+location117.longitude = 8.989627;
+location117.address = "Herningvej 10, 7800 Skive";
+location117.telephone = 60240942;
+
+var location118 = {};
+location118.name = "Lystfiskergaarden";
+location118.latitude = 55.551954;
+location118.longitude = 8.621092;
+location118.address = "Søvej 1, Roust, 6818 Årre";
+location118.telephone = 75192071;
+
+var location119 = {};
+location119.name = "Mejlbygård Lystfiskeri";
+location119.latitude = 56.103653;
+location119.longitude = 8.268735;
+location119.address = "Ndr. Ringvej 10, 6950 Ringkøbing";
+location119.telephone = 97320251;
+
+//Can't find location
+// var location120 = {};
+// location120.name = "Midtthy Fiskepark";
+// location120.latitude = 55.783958;
+// location120.longitude = 8.546247;
+// location120.address = "Damsgårdsvej 3, 7752 Snedsted";
+// location120.telephone = 75250275;
+
+var location121 = {};
+location121.name = "Morsø Fiskepark";
+location121.latitude = 56.781487;
+location121.longitude = 8.822515;
+location121.address = "Frueled 78, 7900 Nykøbing Mors";
+location121.telephone = 97721029;
+
+var location122 = {};
+location122.name = "Moselund Fiskesø";
+location122.latitude = 56.11033;
+location122.longitude = 8.534982;
+location122.address = "Kratvej 4, 6971 Spjald";
+location122.telephone = 97382111;
+
+var location123 = {};
+location123.name = "Munkbro Fiskesø";
+location123.latitude = 56.32182;
+location123.longitude = 8.64094;
+location123.address = "Munkbrovej 15 - Nr. Felding, 7500 Holstebro";
+location123.telephone = 97424347;
+
+var location124 = {};
+location124.name = "Nebel Put & Take";
+location124.latitude = 55.549891;
+location124.longitude = 8.543308;
+location124.address = "Vestervadvej 17, Vester Nebel 6715 Esbjerg N";
+location124.telephone = 51229076;
+
+var location84 = {};
+location83.name = "Adsbøl Sø";
+location83.latitude = 55.783958;
+location83.longitude = 8.546247;
+location83.address = "Adsbølvej 48, Strellev, 6870 Ølgod";
+location83.telephone = 75250275;
 
 var areaThree = {};
 areaThree.name = "Vestjylland";
