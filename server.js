@@ -886,16 +886,192 @@ location124.longitude = 8.543308;
 location124.address = "Vestervadvej 17, Vester Nebel 6715 Esbjerg N";
 location124.telephone = 51229076;
 
-var location84 = {};
-location83.name = "Adsbøl Sø";
-location83.latitude = 55.783958;
-location83.longitude = 8.546247;
-location83.address = "Adsbølvej 48, Strellev, 6870 Ølgod";
-location83.telephone = 75250275;
+var location125 = {};
+location125.name = "Puglund Put & Take";
+location125.latitude = 55.649795;
+location125.longitude = 8.79874;
+location125.address = "Puglundvej 12, 7200 grindsted";
+location125.telephone = 20736139;
+
+var location126 = {};
+location126.name = "Rindsbæk Fiskepark";
+location126.latitude = 56.399607;
+location126.longitude = 9.47191;
+location126.address = "Rindsbækvej 30,Sdr. Rind 8800 Viborg";
+location126.telephone = 86639170;
+
+var location127 = {};
+location127.name = "Salling Put & Take";
+location127.latitude = 56.57432;
+location127.longitude = 8.834188;
+location127.address = "Lægårdvej 6, Håsum 7860 Spøttrup";
+location127.telephone = 97566159;
+
+var location128 = {};
+location128.name = "Silstrup Put & Take";
+location128.latitude = 55.981758;
+location128.longitude = 8.919525;
+location128.address = "Skjernvej 19, Skarrild, 6933 Kibæk";
+location128.telephone = 40541518;
+
+var location129 = {};
+location129.name = "Skjoldborg Lystfiskersø";
+location129.latitude = 56.922976;
+location129.longitude = 8.617616;
+location129.address = "Oddesundvej 142, 7700 Thisted";
+location129.telephone = 97931579;
+
+var location130 = {};
+location130.name = "Snedsted Fiskepark";
+location130.latitude = 56.91411;
+location130.longitude = 8.542857;
+location130.address = "Mosevej 40, Todbøl, 7752 Snedsted";
+location130.telephone = 97934895;
+
+var location131 = {};
+location131.name = "Stakroge Fiskesø";
+location131.latitude = 55.893544;
+location131.longitude = 8.860989;
+location131.address = "Engebækvej 47, 7270 Stakroge";
+location131.telephone = 75347173;
+
+var location132 = {};
+location132.name = "Stauning Fiskesø";
+location132.latitude = 55.956264;
+location132.longitude = 8.398726;
+location132.address = "Hølletvej 1, Stauning, 6900 Skjern";
+location132.telephone = 97369178;
+
+var location133 = {};
+location133.name = "Storkesøen Ribe";
+location133.latitude = 55.317595;
+location133.longitude = 8.759429;
+location133.address = "Haulundvej 164, 6760 Ribe";
+location133.telephone = 75410411;
+
+var location134 = {};
+location134.name = "Svanholm Lystfiskersø";
+location134.latitude = 55.922235;
+location134.longitude = 8.777062;
+location134.address = "Bjergevej, 7280 Sdr. Felding";
+location134.telephone = 97198671;
+
+var location135 = {};
+location135.name = "Sønderskov Put & Take";
+location135.latitude = 55.936534;
+location135.longitude = 8.632293;
+location135.address = "Sønderskovvej 21, Borris, 6900 Skjern";
+location135.telephone = 97366271;
+
+var location136 = {};
+location136.name = "Tjæreborg Fiskepark";
+location136.latitude = 55.46747;
+location136.longitude = 8.5797;
+location136.address = "Hulvej 31, 6731 Tjæreborg";
+location136.telephone = 75176121;
+
+var location137 = {};
+location137.name = "Torp Lystfiskersø";
+location137.latitude = 56.35605;
+location137.longitude = 9.103675;
+location137.address = "Åhusevej 57, 7470 Karup J";
+location137.telephone = 97102409;
+
+var location138 = {};
+location138.name = "Tusågård Put & Take";
+location138.latitude = 56.277018;
+location138.longitude = 9.185772;
+location138.address = "Uhrevej 80 7470 Karup";
+location138.telephone = 97101321;
+
+var location139 = {};
+location139.name = "Vibholm Ørredsø";
+location139.latitude = 56.249001;
+location139.longitude = 8.275838;
+location139.address = "Skorkærvej 16, Madum, 6990 Ulfborg";
+location139.telephone = 97491456;
+
+var location140 = {};
+location140.name = "Vrøgum Fiskesø";
+location140.latitude = 55.65488;
+location140.longitude = 8.310556;
+location140.address = "Hedelundvej 15, Vrøgum 6840 Oksbøl";
+location140.telephone = 75271662;
+
+var location141 = {};
+location141.name = "Ørbæk Ørredsø";
+location141.latitude = 55.860092;
+location141.longitude = 8.78108;
+location141.address = "Gl. Borrisvej 11, 6880 Tarm";
+location141.telephone = 75321829;
+
+var location142 = {};
+location142.name = "Østergård Put & Take";
+location142.latitude = 55.692766;
+location142.longitude = 8.848157;
+location142.address = "Refshøjvej 5, 7200 Grindsted";
+location142.telephone = 75339501;
 
 var areaThree = {};
 areaThree.name = "Vestjylland";
 areaThree.locations = [];
+areaThree.locations.push(location84);
+areaThree.locations.push(location85);
+areaThree.locations.push(location86);
+areaThree.locations.push(location87);
+areaThree.locations.push(location88);
+areaThree.locations.push(location89);
+areaThree.locations.push(location90);
+areaThree.locations.push(location91);
+areaThree.locations.push(location92);
+areaThree.locations.push(location93);
+areaThree.locations.push(location94);
+areaThree.locations.push(location95);
+areaThree.locations.push(location96);
+areaThree.locations.push(location97);
+areaThree.locations.push(location98);
+areaThree.locations.push(location100);
+areaThree.locations.push(location101);
+areaThree.locations.push(location102);
+areaThree.locations.push(location103);
+areaThree.locations.push(location105);
+areaThree.locations.push(location106);
+areaThree.locations.push(location107);
+areaThree.locations.push(location108);
+areaThree.locations.push(location109);
+areaThree.locations.push(location110);
+areaThree.locations.push(location111);
+areaThree.locations.push(location112);
+areaThree.locations.push(location113);
+areaThree.locations.push(location114);
+areaThree.locations.push(location115);
+areaThree.locations.push(location116);
+areaThree.locations.push(location117);
+areaThree.locations.push(location118);
+areaThree.locations.push(location119);
+areaThree.locations.push(location121);
+areaThree.locations.push(location122);
+areaThree.locations.push(location123);
+areaThree.locations.push(location124);
+areaThree.locations.push(location125);
+areaThree.locations.push(location126);
+areaThree.locations.push(location127);
+areaThree.locations.push(location128);
+areaThree.locations.push(location129);
+areaThree.locations.push(location130);
+areaThree.locations.push(location131);
+areaThree.locations.push(location132);
+areaThree.locations.push(location133);
+areaThree.locations.push(location134);
+areaThree.locations.push(location135);
+areaThree.locations.push(location136);
+areaThree.locations.push(location137);
+areaThree.locations.push(location138);
+areaThree.locations.push(location139);
+areaThree.locations.push(location140);
+areaThree.locations.push(location141);
+areaThree.locations.push(location142);
+
 
 var areaFour = {};
 areaFour.name = "Sønderjylland";
