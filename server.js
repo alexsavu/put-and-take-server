@@ -596,6 +596,235 @@ areaOne.locations.push(location28);
 // areaTwo.locations.push(location82);
 // areaTwo.locations.push(location83);
 
+//Can't find location
+// var location29 = {};
+// location29.name = "Tray Sea";
+// location29.latitude = 55.783958;
+// location29.longitude = 8.218857;
+// location29.address = "Small Donnerupvej 3, 7323 Give";
+// location29.telephone = 75250275;
+
+var location30 = {};
+location30.name = "Billund Lystfiskersø";
+location30.latitude = 55.732656;
+location30.longitude = 9.068313;
+location30.address = "Løvlundvej 9, Løvlund, 7190 Billund";
+location30.telephone = 75338266;
+
+//Can't find location'
+// var location31 = {};
+// location31.name = "Bregnholm Mill";
+// location31.latitude = 55.783958;
+// location31.longitude = 8.218857;
+// location31.address = "Brædstrupvej 72, 7160 Drying";
+// location31.telephone = 75250275;
+
+var location32 = {};
+location32.name = "Djurs Fiskepark";
+location32.latitude = 56.400379;
+location32.longitude = 10.71034;
+location32.address = "Kanalvej 90 Fannerup, 8560 Kolind";
+location32.telephone = 86332606;
+
+var location33 = {};
+location33.name = "Fyel Moses Fiskepark";
+location33.latitude = 55.98195;
+location33.longitude = 9.705842;
+location33.address = "Birknæsvej 7, 8752 Østbirk";
+location33.telephone = 75781572;
+
+var location34 = {};
+location34.name = "Gl Laven lake Grumstrup";
+location34.latitude = 56.130879;
+location34.longitude = 9.699318;
+location34.address = "Puksøvej 1, Gl Laven, 8600 Silkeborg";
+location34.telephone = 86531272;
+
+var location35 = {};
+location35.name = "Hammelev Farm Trout Water";
+location35.latitude = 56.454642;
+location35.longitude = 10.928671;
+location35.address = "Grønnevej 7, 8500 Grenå";
+location35.telephone = 86327723;
+
+var location36 = {};
+location36.name = "Harlev Put & Take";
+location36.latitude = 56.136511;
+location36.longitude = 10.020797;
+location36.address = "Højbyvej 9, 8462 Harlev";
+location36.telephone = 86941212;
+
+var location37 = {};
+location37.name = "Jelling Put & Take";
+location37.latitude = 55.739518;
+location37.longitude = 9.413245;
+location37.address = "Fårupvej 40, 7300 Jelling";
+location37.telephone = 24628482;
+
+var location38 = {};
+location38.name = "Juelsminde Put & Take";
+location38.latitude = 55.708533;
+location38.longitude = 9.994555;
+location38.address = "Toft Road, 7130 Juelsminde";
+location38.telephone = 75693313;
+
+var location39 = {};
+location39.name = "Lundum lystfiskersø";
+location39.latitude = 55.929563;
+location39.longitude = 9.766867;
+location39.address = "Torpvej 64 Lundum, 8700 Horsens";
+location39.telephone = 40178144;
+
+var location40 = {};
+location40.name = "Lystfisker Oasen";
+location40.latitude = 56.23573;
+location40.longitude = 9.60705;
+location40.address = "Gjermosevej 15, Grauballe 8600 Silkeborg";
+location40.telephone = 60926790;
+
+var location41 = {};
+location41.name = "Lystfiskerparadiset Heden";
+location41.latitude = 55.642639;
+location41.longitude = 9.267333;
+location41.address = "Spjarupvej 11, Spjarup, 6040 Egtved";
+location41.telephone = 22513147;
+
+var location42 = {};
+location42.name = "Nebbemølle Put & Take";
+location42.latitude = 55.631158;
+location42.longitude = 9.715197;
+location42.address = "Nebbe Møllevej 106, Gårslev";
+location42.telephone = 20969027;
+
+var location43 = {};
+location43.name = "Nørhoved Put & Take";
+location43.latitude = 55.990821;
+location43.longitude = 9.409039;
+location43.address = "Nørhovedvej 16, 8766 Nr.Snede";
+location43.telephone = 75771025;
+
+//Can't find location
+// var location44 = {};
+// location44.name = "Markusminde fiskesø";
+// location44.latitude = 55.783958;
+// location44.longitude = 8.218857;
+// location44.address = "Hovvejen 41, Markusminde 8471 Sabro";
+// location44.telephone = 75250275;
+
+var location45 = {};
+location45.name = "Moesholm Put & Take";
+location45.latitude = 56.359462;
+location45.longitude = 10.479755;
+location45.address = "Thorsagervej 32D 8550 Ryomgård";
+location45.telephone = 40795215;
+
+var location46 = {};
+location46.name = "Palsgaards Lystfiskeri";
+location46.latitude = 55.618328;
+location46.longitude = 9.772661;
+location46.address = "Bøgeskovvej 64,Trelde, 7000 Fredericia";
+location46.telephone = 75957090;
+
+var location47 = {};
+location47.name = "Pinds Mølle Fiskepark";
+location47.latitude = 56.109815;
+location47.longitude = 10.011356;
+location47.address = "Pinds Møllevej 35, 8362 Hørning";
+location47.telephone = 86923340;
+
+var location48 = {};
+location48.name = "Præsteengsøer Put & Take";
+location48.latitude = 55.775016;
+location48.longitude = 9.226434;
+location48.address = "Præsteengvej 2, Lindeballe, 7323 Give";
+location48.telephone = 21423004;
+
+var location49 = {};
+location49.name = "Seest Møllesø Fiskepark";
+location49.latitude = 55.489152;
+location49.longitude = 9.401958;
+location49.address = "Vranderupvej 71 6000 Kolding";
+location49.telephone = 75526020;
+
+var location50 = {};
+location50.name = "Singelsbjerg Sø";
+location50.latitude = 56.176055;
+location50.longitude = 9.670994;
+location50.address = "Skellerupvej 42, 8600 Silkeborg";
+location50.telephone = 86853096;
+
+var location51 = {};
+location51.name = "Skovhave Lystfiskersø";
+location51.latitude = 55.381049;
+location51.longitude = 9.51386;
+location51.address = "Vejstruprødvej 39, 6093 Sjølund";
+location51.telephone = 75574277;
+
+var location52 = {};
+location52.name = "Hedensted Put & Take";
+location52.latitude = 55.778045;
+location52.longitude = 9.707837;
+location52.address = "Mørtelvej 5, 8722 Hedensted";
+location52.telephone = 75890000;
+
+var location53 = {};
+location53.name = "Stenvad Put & Take";
+location53.latitude = 55.514965;
+location53.longitude = 9.377024;
+location53.address = "Stenvad 3, 6000 Kolding";
+location53.telephone = 51783017;
+
+var location54 = {};
+location54.name = "Stilbjerg Lystfiskersø";
+location54.latitude = 55.771299;
+location54.longitude = 9.104426;
+location54.address = "Stilbjergvej 11, 7190 Billund";
+location54.telephone = 75344104;
+
+var location55 = {};
+location55.name = "Svejstrup Fiskepark";
+location55.latitude = 56.346895;
+location55.longitude = 9.964514;
+location55.address = "Svejstrupvej, 8370 Hadsten";
+location55.telephone = 40983328;
+
+var location56 = {};
+location56.name = "Vrads Put & Take";
+location56.latitude = 56.047392;
+location56.longitude = 9.474399;
+location56.address = "Dambrugsvej 3, 8654 Bryrup";
+location56.telephone = 75756856;
+
+
+var areaTwo = {};
+areaTwo.name = "Østjylland";
+areaTwo.locations = [];
+areaTwo.locations.push(location30);
+areaTwo.locations.push(location32);
+areaTwo.locations.push(location33);
+areaTwo.locations.push(location34);
+areaTwo.locations.push(location35);
+areaTwo.locations.push(location36);
+areaTwo.locations.push(location37);
+areaTwo.locations.push(location38);
+areaTwo.locations.push(location39);
+areaTwo.locations.push(location40);
+areaTwo.locations.push(location41);
+areaTwo.locations.push(location42);
+areaTwo.locations.push(location43);
+areaTwo.locations.push(location45);
+areaTwo.locations.push(location46);
+areaTwo.locations.push(location47);
+areaTwo.locations.push(location48);
+areaTwo.locations.push(location49);
+areaTwo.locations.push(location50);
+areaTwo.locations.push(location51);
+areaTwo.locations.push(location52);
+areaTwo.locations.push(location53);
+areaTwo.locations.push(location54);
+areaTwo.locations.push(location55);
+areaTwo.locations.push(location56);
+
 var location84 = {};
 location84.name = "Adsbøl Sø";
 location84.latitude = 55.783958;
