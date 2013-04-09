@@ -1303,11 +1303,6 @@ areaThree.locations.push(location111);
 areaThree.locations.push(location112);
 
 
-var areaFour = {};
-areaFour.name = "Sønderjylland";
-areaFour.locations = [];
-
-
 var location113 = {};
 location113.name = "Brynshøj Sø";
 location113.latitude = 55.907077;
@@ -1509,33 +1504,182 @@ location136.address = "Åbakkevej 13,Ørsted, 4130 Viby Sj.";
 location136.telephone = 46195519;
 location136.price = 135;
 
+var areaFour = {};
+areaFour.name = "Sjælland";
+areaFour.locations = [];
+areaFour.locations.push(location113);
+areaFour.locations.push(location114);
+areaFour.locations.push(location115);
+areaFour.locations.push(location116);
+areaFour.locations.push(location117);
+areaFour.locations.push(location118);
+areaFour.locations.push(location119);
+areaFour.locations.push(location120);
+areaFour.locations.push(location121);
+areaFour.locations.push(location122);
+areaFour.locations.push(location123);
+areaFour.locations.push(location124);
+areaFour.locations.push(location125);
+areaFour.locations.push(location126);
+areaFour.locations.push(location127);
+areaFour.locations.push(location128);
+areaFour.locations.push(location129);
+areaFour.locations.push(location130);
+areaFour.locations.push(location131);
+areaFour.locations.push(location132);
+areaFour.locations.push(location133);
+areaFour.locations.push(location134);
+areaFour.locations.push(location135);
+areaFour.locations.push(location136);
+
+var location137 = {};
+location137.name = "Anholm Fiskesø";
+location137.latitude = 55.306971;
+location137.longitude = 9.001236;
+location137.address = "Folevej 16 Fole, 6510 Gram";
+location137.telephone = 74823433;
+location137.price = 70;
+
+var location138 = {};
+location138.name = "Arrild Fiskesø";
+location138.latitude = 55.15384;
+location138.longitude = 8.949823;
+location138.address = "Arrild Ferieby 505, 6520 Toftlund";
+location138.telephone = 74834000;
+location138.price = 85;
+
+var location139 = {};
+location139.name = "Bakkegårdens Put & Take";
+location139.latitude = 55.080357;
+location139.longitude = 9.368913;
+location139.address = "Bodumvej 3, 6230 Rødekro";
+location139.telephone = 74716022;
+location139.price = 50;
+
+var location140 = {};
+location140.name = "Bevtoft Lystfiskersø";
+location140.latitude = 55.191902;
+location140.longitude = 9.229331;
+location140.address = "Neder Jerstalvej 23, 6541 Bevtoft";
+location140.telephone = 74514221;
+location140.price = 40;
+
+var location141 = {};
+location141.name = "Egenmølle Fiskesø";
+location141.latitude = 54.976271;
+location141.longitude = 9.886301;
+location141.address = "Nordborgvej 120, 6430 Nordborg";
+location141.telephone = 74458092;
+location141.price = 65;
+
+var location142 = {};
+location142.name = "AEngholm lystfiskersø";
+location142.latitude = 56.246056;
+location142.longitude = 9.452899;
+location142.address = "Engholmsvej 10A, Mausing, 8620 Kjellerup";
+location142.telephone = 20323555;
+location142.price = 100;
+
+var location143 = {};
+location143.name = "Fanø Fiskesø";
+location143.latitude = 55.434626;
+location143.longitude = 8.39216;
+location143.address = "Storetoft 30, 6720 Fanø";
+location143.telephone = 29162115;
+location143.price = 100;
+
+var location144 = {};
+location144.name = "Favstrup Sø";
+location144.latitude = 55.335528;
+location144.longitude = 9.519482;
+location144.address = "Favstrupvej 70 Favstrup 6070 Christiansfeld";
+location144.telephone = 74561869;
+location144.price = 60;
+
+var location145 = {};
+location145.name = "Frueskov Lystfiskersø";
+location145.latitude = 54.876977;
+location145.longitude = 9.473219;
+location145.address = "Frueskovvej 2, Kelstrupskov, 6340 Kruså";
+location145.telephone = 74608375;
+location145.price = 65;
+
+var location146 = {};
+location146.name = "Hvilested Lystfiskersøer";
+location146.latitude = 55.50663;
+location146.longitude = 9.363785;
+location146.address = "Esbjergvej 338, 6000 Kolding";
+location146.telephone = 23317662;
+location146.price = 70;
+
+var location147 = {};
+location147.name = "Lovtrup Put & Take";
+location147.latitude = 54.956316;
+location147.longitude = 9.267783;
+location147.address = "Lovtrup Vestermark 15, 6360 Tinglev";
+location147.telephone = 9.267783;
+location147.price = 100;
+
+var location148 = {};
+location148.name = "Mjøls Lystfiskeri";
+location148.latitude = 55.067839;
+location148.longitude = 9.298532;
+location148.address = "Arnhøjvej 2, 6230 Rødekro";
+location148.telephone = 40348601;
+location148.price = 65;
+
+var location149 = {};
+location149.name = "Renbæk Lystfiskersø";
+location149.latitude = 55.180399;
+location149.longitude = 8.903131;
+location149.address = "Rømøvej 50, 6780 Skærbæk";
+location149.telephone = 21469065;
+location149.price = 60;
+
+var location150 = {};
+location150.name = "Rødekro Lystfiskeri";
+location150.latitude = 55.091324;
+location150.longitude = 9.301686;
+location150.address = "Østermarkvej 7, 6230 Rødekro";
+location150.telephone = 40335503;
+location150.price = 70;
+
+var location151 = {};
+location151.name = "Rømø fiskesø";
+location151.latitude = 55.173862;
+location151.longitude = 8.554637;
+location151.address = "Vestervej 46, 6792 Rømø";
+location151.telephone = 24253945;
+location151.price = 100;
+
+var location152 = {};
+location152.name = "Sivbæk Fiskesø";
+location152.latitude = 55.740835;
+location152.longitude = 9.27525;
+location152.address = "Grønhøjgårdvej 1, 7321 Gadbjerg";
+location152.telephone = 75883059;
+location152.price = 95;
+
+var location153 = {};
+location153.name = "Stenvad Put & Take";
+location153.latitude = 55.514941;
+location153.longitude = 9.377131;
+location153.address = "Stenvad 3, 6000 Kolding";
+location153.telephone = 51783017;
+location153.price = 100;
+
+var location154 = {};
+location154.name = "Uge Lystfiskeri";
+location154.latitude = 54.961774;
+location154.longitude = 9.293232;
+location154.address = "Aabenraavej 95, Uge, 6360 Tinglev";
+location154.telephone = 9.293232;
+location154.price = 65;
+
+
 var areaFive = {};
-areaFive.name = "Sjælland";
+areaFive.name = "Sønderjylland";
 areaFive.locations = [];
-areaFive.locations.push(location113);
-areaFive.locations.push(location114);
-areaFive.locations.push(location115);
-areaFive.locations.push(location116);
-areaFive.locations.push(location117);
-areaFive.locations.push(location118);
-areaFive.locations.push(location119);
-areaFive.locations.push(location120);
-areaFive.locations.push(location121);
-areaFive.locations.push(location122);
-areaFive.locations.push(location123);
-areaFive.locations.push(location124);
-areaFive.locations.push(location125);
-areaFive.locations.push(location126);
-areaFive.locations.push(location127);
-areaFive.locations.push(location128);
-areaFive.locations.push(location129);
-areaFive.locations.push(location130);
-areaFive.locations.push(location131);
-areaFive.locations.push(location132);
-areaFive.locations.push(location133);
-areaFive.locations.push(location134);
-areaFive.locations.push(location135);
-areaFive.locations.push(location136);
 
 var areaSix = {};
 areaSix.name = "Fyn";
