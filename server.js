@@ -1673,26 +1673,143 @@ location154.name = "Uge Lystfiskeri";
 location154.latitude = 54.961774;
 location154.longitude = 9.293232;
 location154.address = "Aabenraavej 95, Uge, 6360 Tinglev";
-location154.telephone = 9.293232;
+location154.telephone = 74644498;
 location154.price = 65;
 
 
 var areaFive = {};
 areaFive.name = "Sønderjylland";
 areaFive.locations = [];
+areaFive.locations.push(location137);
+areaFive.locations.push(location138);
+areaFive.locations.push(location139);
+areaFive.locations.push(location140);
+areaFive.locations.push(location141);
+areaFive.locations.push(location142);
+areaFive.locations.push(location143);
+areaFive.locations.push(location144);
+areaFive.locations.push(location145);
+areaFive.locations.push(location146);
+areaFive.locations.push(location147);
+areaFive.locations.push(location148);
+areaFive.locations.push(location149);
+areaFive.locations.push(location150);
+areaFive.locations.push(location151);
+areaFive.locations.push(location152);
+areaFive.locations.push(location153);
+areaFive.locations.push(location154);
+
+var location155 = {};
+location155.name = "Børge´s Put & Take";
+location155.latitude = 55.434249;
+location155.longitude = 10.058885;
+location155.address = "Rydskovvej 22, Rydskov, 5560 Årup";
+location155.telephone = 64881630;
+location155.price = 90;
+
+var location156 = {};
+location156.name = "Agernæs Saltvandssøer";
+location156.latitude = 55.192613;
+location156.longitude = 9.989233;
+location156.address = "Helnæsvej 15, 5631 Ebberup";
+location156.telephone = 64771124;
+location156.price = 75;
+
+var location157 = {};
+location157.name = "Mosegårdens Put & Take";
+location157.latitude = 55.493856;
+location157.longitude = 10.151625;
+location157.address = "Mosegårdsvej 2, 5471 Søndersø";
+location157.telephone = 74644498;
+location157.price = 0;
+
+var location158 = {};
+location158.name = "Ibjergvejens Fiskevand";
+location158.latitude = 55.322906;
+location158.longitude = 10.524495;
+location158.address = "Ibjergvej 5-7, Tarup, 5792 Årslev";
+location158.telephone = 65972436;
+location158.price = 75;
+
+var location159 = {};
+location159.name = "Langelands Lystfiskersø";
+location159.latitude = 54.802181;
+location159.longitude = 10.747461;
+location159.address = "Slåvænget 9, Tryggelev, 5932 Humble";
+location159.telephone = 62562535;
+location159.price = 100;
+
+var location160 = {};
+location160.name = "Aalsbogaard Lystfiskersøer";
+location160.latitude = 55.425702;
+location160.longitude = 10.013845;
+location160.address = "Store Landevej 125, 5560 Aarup";
+location160.telephone = 64881552;
+location160.price = 90;
+
+var location161 = {};
+location161.name = "Fyns Fiskevand";
+location161.latitude = 55.331903;
+location161.longitude = 10.566745;
+location161.address = "Nyhavevej 6 Kappendrup, 5550 Langeskov";
+location161.telephone = 65972428;
+location161.price = 90;
+
+var location162 = {};
+location162.name = "Højrupgård Put & Take";
+location162.latitude = 55.190114;
+location162.longitude = 10.3494;
+location162.address = "Højrupvej 40, 5750 Ringe";
+location162.telephone = 25615464;
+location162.price = 100;
+
+var location163 = {};
+location163.name = "Midtfyns Put and Take";
+location163.latitude = 55.234664;
+location163.longitude = 10.365665;
+location163.address = "Sallingelunde 6, 5750 Ringe";
+location163.telephone = 41439402;
+location163.price = 100;
+
+var location164 = {};
+location164.name = "Blue Rock Put and Take";
+location164.latitude = 55.053067;
+location164.longitude = 10.474842;
+location164.address = "Ravnegårdsvej 16, 5762 V. Skerninge";
+location164.telephone = 29918191;
+location164.price = 80;
+
+var location165 = {};
+location165.name = "Spodsbjerg Lystfiskersø";
+location165.latitude = 54.942835;
+location165.longitude = 10.830417;
+location165.address = "Løkkeby Strandvej 8, 5953 Tranekær";
+location165.telephone = 62501541;
+location165.price = 90;
 
 var areaSix = {};
 areaSix.name = "Fyn";
 areaSix.locations = [];
-
-var areaSeven = {};
-areaSeven.name = "Bornholm";
-areaSeven.locations = [];
+areaSix.locations.push(location155);
+areaSix.locations.push(location156);
+areaSix.locations.push(location157);
+areaSix.locations.push(location158);
+areaSix.locations.push(location159);
+areaSix.locations.push(location160);
+areaSix.locations.push(location161);
+areaSix.locations.push(location162);
+areaSix.locations.push(location163);
+areaSix.locations.push(location164);
+areaSix.locations.push(location165);
 
 var areaArray = [];
 
 areaArray.push(areaOne);
-// areaArray.push(areaTwo);
+areaArray.push(areaTwo);
+areaArray.push(areaThree);
+areaArray.push(areaFour);
+areaArray.push(areaFive);
+areaArray.push(areaSix);
 
 for (var i = 0; i < areaArray.length; i++) {
 	var tempArea = new Area();
